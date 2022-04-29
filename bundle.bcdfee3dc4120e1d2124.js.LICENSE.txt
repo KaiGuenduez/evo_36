@@ -1,0 +1,7 @@
+//!
+
+//! Die Loesung fuer schwarz verschwommene Kanten, Kosten 4%, MAX aus renderer.getMaxAnisotropy(), 16 mein Maschine
+
+//!schreibe die funktion auch fuer die freigabe
+
+//!test

@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+    cursor: crosshair;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.loading-bar
+{
+    position: absolute;
+    top: 64%;
+    width: 100%;
+    height: 2px;
+    background-color: whitesmoke;
+
+    transform-origin: top left;
+    transform: scaleX(0);
+    transition: transform 0.7s;
+    will-change: transform;
+}
+
+.loading-bar.loaded
+{
+    transform-origin: top right;
+    transform: scale(0);/*schient besser als scaleX()*/
+    transition: transform 1.5s ease-in-out;
+}
+
+/*# sourceMappingURL=main.css.map*/
